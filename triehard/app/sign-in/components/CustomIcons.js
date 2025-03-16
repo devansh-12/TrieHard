@@ -1,6 +1,6 @@
 import * as React from 'react';
 import SvgIcon from '@mui/material/SvgIcon';
-
+import GitHubIcon from '@mui/icons-material/GitHub';
 export function SitemarkIcon() {
   return (
     <SvgIcon sx={{ height: 21, width: 100 }}>
@@ -118,3 +118,5 @@ export function GoogleIcon() {
     </SvgIcon>
   );
 }
+
+export {GitHubIcon};
